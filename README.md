@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/2checkout": "~2.0"
+        "omnipay/Adyen": "~2.0"
     }
 }
 ```
