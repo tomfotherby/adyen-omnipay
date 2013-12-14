@@ -1,4 +1,4 @@
-# Omnipay: 2Checkout
+# Omnipay: Adyen
 
 **Adyen driver for the Omnipay PHP payment processing library**
 
