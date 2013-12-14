@@ -1,13 +1,13 @@
 # Omnipay: 2Checkout
 
-**2Checkout driver for the Omnipay PHP payment processing library**
+**Adyen driver for the Omnipay PHP payment processing library**
 
 [![Build Status](https://travis-ci.org/omnipay/2checkout.png?branch=master)](https://travis-ci.org/omnipay/2checkout)
 [![Latest Stable Version](https://poser.pugx.org/omnipay/2checkout/version.png)](https://packagist.org/packages/omnipay/2checkout)
 [![Total Downloads](https://poser.pugx.org/omnipay/2checkout/d/total.png)](https://packagist.org/packages/omnipay/2checkout)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements 2Checkout support for Omnipay.
+processing library for PHP 5.3+. This package implements Adyen support for Omnipay.
 
 ## Installation
 
@@ -31,7 +31,7 @@ And run composer to update your dependencies:
 
 The following gateways are provided by this package:
 
-* TwoCheckout
+* Adyen
 
 For general usage instructions, please see the main [Omnipay](https://github.com/omnipay/omnipay)
 repository.
