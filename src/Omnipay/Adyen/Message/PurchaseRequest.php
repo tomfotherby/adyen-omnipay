@@ -6,7 +6,8 @@ use Omnipay\Common\Message\AbstractRequest;
 
 class PurchaseRequest extends AbstractRequest
 {
-    protected $endpoint = 'https://test.adyen.com/hpp/pay.shtml';
+    protected $liveEndpoint = 'https://live.adyen.com/hpp/pay.shtml';
+    protected $testEndpoint = 'https://test.adyen.com/hpp/pay.shtml';
 
     public function getMerchantAccount()
     {
@@ -136,6 +137,6 @@ class PurchaseRequest extends AbstractRequest
 
     public function getEndpoint()
     {
-        return $this->endpoint;
+        return $this->getTestMode() ? $this->testEndpoint : $this->liveEndpoint;
     }
 }
