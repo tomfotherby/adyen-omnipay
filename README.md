@@ -2,9 +2,9 @@
 
 **Adyen driver for the Omnipay PHP payment processing library**
 
-[![Build Status](https://travis-ci.org/tomfotherby/omnipay-adyen.png?branch=master)](https://travis-ci.org/titlextechnology/omnipay-adyen)
+[![Build Status](https://travis-ci.org/tomfotherby/omnipay-adyen.png?branch=master)](https://travis-ci.org/tomfotherby/omnipay-adyen)
 [![Latest Stable Version](https://poser.pugx.org/tomfotherby/omnipay-adyen/version.png)](https://packagist.org/packages/tomfotherby/omnipay-adyen)
-[![Total Downloads](https://poser.pugx.org/tomfotherby/omnipay-adyen/d/total.png)](https://packagist.org/packages/titlextechnology/omnipay-adyen)
+[![Total Downloads](https://poser.pugx.org/tomfotherby/omnipay-adyen/d/total.png)](https://packagist.org/packages/tomfotherby/omnipay-adyen)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Adyen support for Omnipay.
