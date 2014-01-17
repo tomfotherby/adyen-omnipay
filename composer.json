@@ -1,5 +1,5 @@
 {
-    "name": "titlextechnology/omnipay-adyen",
+    "name": "tomfotherby/omnipay-adyen",
     "type": "library",
     "description": "Adyen driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,7 +10,7 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/titlextechnology/omnipay-adyen",
+    "homepage": "https://github.com/tomfotherby/omnipay-adyen",
     "license": "MIT",
     "authors": [
         {
@@ -20,6 +20,10 @@
         {
             "name": "Omnipay Contributors",
             "homepage": "https://github.com/titlextechnology/omnipay-adyen/contributors"
+        },
+        {
+            "name": "Tom Fotherby",
+            "homepage": "https://github.com/tomfotherby/omnipay-adyen/contributors"
         }
     ],
     "autoload": {
